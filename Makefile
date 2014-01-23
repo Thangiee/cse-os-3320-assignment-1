@@ -1,6 +1,6 @@
 n = 20
 
-make: fileTest dirTest
+make:
 	gcc -g thang_le_assignment1.c -o thang_le_assignment1
 
 fileTest:

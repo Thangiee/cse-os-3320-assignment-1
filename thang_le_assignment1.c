@@ -16,6 +16,15 @@
 #define MAX_NAME 2048
 #define MAX_FILES 1024
 
+// function prototypes
+void printDirectory();
+void printTime();
+void freeMem(char **, int);
+char **getFilesInDir(unsigned char , int *);
+void printMenu();
+char *findFile(unsigned char);
+
+
 // print the current working directory.
 void printDirectory() {
     char s[256];
